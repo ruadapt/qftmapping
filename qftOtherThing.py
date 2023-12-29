@@ -96,7 +96,7 @@ def procedure(glist:list[gateType], path:list[list[int, None]], nodeCount:int):
                 marks.add(i)
     #print(path)
 
-
+# addrType: 0 for logical address, 1 for physical address
 def displayGraph(gateList:list[gateType], nodeCount:int, addrType:int, printData:bool):
 
     stats = dict()
